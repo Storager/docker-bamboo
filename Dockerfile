@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jdk
+FROM openjdk:8-jdk
 
 ENV BAMBOO_VERSION=6.2.2 BAMBOO_FOLDER=/opt/bamboo BAMBOO_HOME=/opt/bamboo/data
 
